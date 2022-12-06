@@ -52,7 +52,12 @@ body > .header{
 }
 
 .blocco-section .list{
-    margin-left: 23px;
-    list-style-type: &#128504;;
+    margin-left: 4px;
+    list-style-type: none;
 }
 
+.item{
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
