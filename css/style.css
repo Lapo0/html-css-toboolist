@@ -21,6 +21,7 @@ body > .header{
 .h1{
     display: inline-block;
     font-size: 40px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*CORPO DELLA PAGINA*/
@@ -39,12 +40,22 @@ body > .header{
 }
 
 .corpo .button{
-    background-color: rgb(0, 132, 255);
     border: 0;
     padding: 5px;
     font-size: 12px;
     border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button.blue{
+    background-color: rgb(0, 132, 255);
     color: white;
+}
+
+.button.white{
+    background-color: white;
+    border: 1px solid lightgray;
+    color: lightgray;
 }
 
 /*SEZIONE*/
@@ -52,39 +63,76 @@ body > .header{
     margin-top: 2px;
 }
 
-.block{
+.blocco-section .block{
     padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
 }
 
-.blocco-section .list{
-    margin-left: 4px;
+.block:nth-last-child(1){
+    padding-bottom: 15px;
+}
+
+.block > h3{
+    font-family: 'Anton', sans-serif;
+}
+
+/*LISTE*/
+.block .list{
     list-style-type: none;
 }
 
-.item{
+p >.item{
     margin-right: 10px;
-    border: 1px solid black;
+    border: 1px solid;
     border-radius: 50%;
+    font-size: 10px;
+    padding: 5px;
 }
 
 li{
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
-.check{
+/*Check/Cross*/
+span.check{
     border-color: green;
     color: green;
 }
 
-.cross{
+span.cross{
     border-color: red;
     color: red;
 }
 
-.rect{
+span.rect{
     font-size: 10px;
-    background-color: orange;
     border-radius: 10px;
     color: white;
     padding: 5px;
+}
+
+/*Rettangoli*/
+.editorial{
+    background-color: rgb(0, 110, 255);
+}
+
+.q1{
+    background-color: blueviolet;
+}
+
+.recruiting{
+    background-color: rgb(126, 218, 64);
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: violet;
+}
+
+.sales{
+    background-color: darkolivegreen;
 }

@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <!--TESTATA-->
     <header class="header white" >
-        <img class="logo" src="img/Logo.png" alt="logo">
-        <h1 class="h1" >Toboolist</h1>
+        <img class="logo white" src="img/Logo.png" alt="logo">
+        <h1 class="h1 white" >Toboolist</h1>
     </header>
 
     <!--CORPO DELLA PAGINA-->
@@ -20,18 +22,18 @@
 
         <!--NAVIGAZIONE-->
         <nav class="blocco-nav white">
-            <button class="button" >Add Task</button>
-            <button class="button" >Add Section</button>
+            <button class="button blue" >Add Task</button>
+            <button class="button white" >Add Section</button>
         </nav>
 
         <!--SEZIONE-->
         <section class="blocco-section white" >
 
             <!--Prima Lista-->
-            <div class="white block">
-                <h2 class="white">&#129091; New Task</h2>
+            <div class="block white">
+                <h3 class="white">&#129091; New Task</h3>
 
-                <ul class="list">
+                <ul class="list white">
 
                     <li class="white">
                         <p class="white">
@@ -39,13 +41,100 @@
                                 &#128504;
                             </span>
                             Quarterly Newsletter
-                            <span class="rect">Editorial</span>
+                            <span class="rect editorial">Editorial</span>
                         </p>
                     </li>
                 </ul>
             </div>
 
             <!--Seconda Lista-->
+            <div class="block white">
+                <h3 class="white">&#129091; Today</h3>
+
+                <ul class="list white">
+
+                    <li class="white">
+                        <p class="white">
+                            <span class="item check">
+                                &#128504;
+                            </span>
+                            Recruiting blog post
+                            <span class="rect editorial">Editorial</span>
+                        </p>
+                    </li>
+                    <li class="white">
+                        <p class="white">
+                            <span class="item check">
+                                &#128504;
+                            </span>
+                            Mobile App luaunch
+                            <span class="rect q1">Q1 Goals</span>
+                        </p>
+                    </li>
+                    <li class="white">
+                        <p class="white">
+                            <span class="item cross">
+                                &#10006;
+                            </span>
+                            Interview Jhon H.
+                            <span class="rect recruiting">Recruiting</span>
+                        </p>
+                    </li>
+                    <li class="white">
+                        <p class="white">
+                            <span class="item check">
+                                &#128504;
+                            </span>
+                            Summit update to mobile storefronts
+                            <span class="rect mobile">Mobile</span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+             <!--Terza Lista-->
+             <div class="block white">
+                <h3 class="white">&#129091; Upcoming</h3>
+
+                <ul class="list white">
+
+                    <li class="white">
+                        <p class="white">
+                            <span class="item cross">
+                                &#10006;
+                            </span>
+                            Shedule meeting with Alex
+                        </p>
+                    </li>
+                    <li class="white">
+                        <p class="white">
+                            <span class="item check">
+                                &#128504;
+                            </span>
+                            Homepage refresh
+                            <span class="rect website">Website</span>
+                        </p>
+                    </li>
+                    <li class="white">
+                        <p class="white">
+                            <span class="item cross">
+                                &#128504;
+                            </span>
+                            Onboard new Sales team members
+                            <span class="rect sales">Sales</span>
+                        </p>
+                    </li>
+                    <li class="white">
+                        <p class="white">
+                            <span class="item check">
+                                &#128504;
+                            </span>
+                            Review editorial calendar
+                            <span class="rect editorial">Editorial</span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
             
 
         </section>
