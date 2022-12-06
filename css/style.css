@@ -15,13 +15,14 @@ body > .header{
 }
 
 .logo{
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .h1{
     display: inline-block;
     font-size: 40px;
     font-family: 'Anton', sans-serif;
+    vertical-align: middle;
 }
 
 /*CORPO DELLA PAGINA*/
