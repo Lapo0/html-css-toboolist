@@ -21,7 +21,7 @@ body > .header{
 .h1{
     display: inline-block;
     font-size: 40px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Anton', sans-serif;
 }
 
 /*CORPO DELLA PAGINA*/
@@ -34,17 +34,18 @@ body > .header{
 }
 
 /*NAVIGAZIONE*/
-.blocco-nav{
+.corpo .blocco-nav{
     margin-top: 50px;
     padding: 15px 40px;
 }
 
-.corpo .button{
+.blocco-nav .button{
     border: 0;
     padding: 5px;
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
+    border: 1px solid lightgray;
 }
 
 .button.blue{
@@ -54,7 +55,6 @@ body > .header{
 
 .button.white{
     background-color: white;
-    border: 1px solid lightgray;
     color: lightgray;
 }
 
@@ -73,6 +73,7 @@ body > .header{
     padding-bottom: 15px;
 }
 
+/*TITOLO*/
 .block > h3{
     font-family: 'Anton', sans-serif;
 }
@@ -87,10 +88,10 @@ p >.item{
     border: 1px solid;
     border-radius: 50%;
     font-size: 10px;
-    padding: 5px;
+    padding: 3px;
 }
 
-li{
+ul.list li{
     margin: 15px 0;
 }
 
