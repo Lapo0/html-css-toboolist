@@ -24,17 +24,17 @@ body > .header{
 }
 
 /*CORPO DELLA PAGINA*/
-body > .corpo{
-    background-color: rgb(231, 167, 83);
+
+.corpo > *{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 15px 40px;
+    border-radius: 3px;
 }
 
 /*NAVIGAZIONE*/
-.corpo > nav{
-    max-width: 700px;
-    margin: 0 auto;
+.blocco-nav{
     margin-top: 50px;
-    padding: 15px 30px;
-    border-radius: 5px;
 }
 
 .corpo .button{
@@ -45,3 +45,14 @@ body > .corpo{
     border-radius: 5px;
     color: white;
 }
+
+/*SEZIONE*/
+.blocco-section{
+    margin-top: 2px;
+}
+
+.blocco-section .list{
+    margin-left: 23px;
+    list-style-type: &#128504;;
+}
+
