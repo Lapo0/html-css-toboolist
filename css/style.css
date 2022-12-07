@@ -111,14 +111,16 @@ span.cross{
     color: red;
 }
 
+/*Rettangoli*/
 span.rect{
     font-size: 10px;
     border-radius: 10px;
     color: white;
     padding: 5px;
+    line-height: 15px;
+    display: inline-block;
 }
 
-/*Rettangoli*/
 .editorial{
     background-color: rgb(0, 110, 255);
 }
