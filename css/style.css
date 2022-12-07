@@ -88,7 +88,7 @@ body > .corpo{
 
 p >.item{
     margin-right: 10px;
-    border: 1px solid;
+    border: 1px solid currentColor;
     border-radius: 50%;
     width: 20px;
     height: 20px;
@@ -104,12 +104,10 @@ ul.list li{
 
 /*Check/Cross*/
 span.check{
-    border-color: green;
     color: green;
 }
 
 span.cross{
-    border-color: red;
     color: red;
 }
 
